@@ -1,0 +1,12 @@
+description = "game-server: network"
+
+dependencies {
+	compile project(':base'),
+		libraries.netty,
+		libraries.guava,
+	    libraries.protobuf
+
+	testCompile libraries.junit
+}
+
+javadoc.options.links 'http://netty.io/4.1/api/'

@@ -1,0 +1,5 @@
+description = 'game-server: game-server'
+
+dependencies {
+    compile project(':base')
+}

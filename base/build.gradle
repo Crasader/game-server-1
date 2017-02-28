@@ -1,0 +1,10 @@
+description = 'game-server: base'
+
+dependencies {
+    compile libraries.slf4j,
+            libraries.log4j_slf4j_impl,
+            libraries.log4j_api,
+            libraries.log4j_core
+
+    testCompile libraries.junit
+}

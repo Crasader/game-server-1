@@ -1,0 +1,8 @@
+rootProject.name = 'game-server'
+include ':base'
+include ':network'
+include ':login-server'
+include ':gate-server'
+include ':game'
+include ':mmorpg'
+include ":hot-swap"
