@@ -14,6 +14,7 @@ public class ProtobufProtocol implements Protocol {
 
     @Override
     public boolean applyProtocol(ByteBuf buffer, ChannelPipeline pipeline) {
+
         return false;
     }
 }
